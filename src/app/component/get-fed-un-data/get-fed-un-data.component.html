@@ -1,0 +1,37 @@
+<style>
+  .listscfg {
+    display: flex;
+    justify-content: flex-start;
+  }
+</style>
+
+<div class="" style="text-align: center">
+  <h1 class="title">Brazil IBGE Data</h1>
+</div>
+<br />
+<br />
+
+<div class="text-center">
+  <div class="row">
+    <div class="col">
+      <div class="">
+        <app-map [InputselectedState]="selectedRegion"></app-map>
+      </div>
+    </div>
+    <div class="col">
+      <app-cards
+        [StatesCount]="StatesCount"
+        [RegionCount]="RegionCount"
+      ></app-cards>
+
+      <div class="listscfg">
+        <div class="col22">
+          <app-regionslist [uniqueRegions]="uniqueRegions"></app-regionslist>
+        </div>
+        <div class="col22">
+          <app-stateslist [FedUnData]="FedUnData"></app-stateslist>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

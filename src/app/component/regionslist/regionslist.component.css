@@ -1,0 +1,17 @@
+   .selected-item {
+    background-color: #00a3be; 
+    color: #fff; 
+  }
+
+  .list-group-item {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .custom-list-item {
+    max-width: 300px; 
+    min-width: 200px;
+    white-space: wrap;
+    text-overflow: ellipsis;
+  }

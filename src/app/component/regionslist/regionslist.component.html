@@ -1,0 +1,40 @@
+<!-- List of regions -->
+
+<div class="container22">
+  <div class="row">
+    <div class="col-4">
+      <div
+        class="list-group list-group-item-action custom-list-item"
+        id="list-tab"
+        role="tablist"
+      >
+        <a
+          *ngFor="let region of uniqueRegions; let i = index"
+          class="list-group-item list-group-item-action custom-list-item"
+          [id]="'list-' + region + '-list'"
+          data-bs-toggle="list"
+          role="tab"
+          [attr.aria-controls]="'list-' + region"
+          [attr.aria-selected]="i === 0 ? 'true' : 'false'"
+          [ngClass]="{ 'selected-item': region === selectedRegion }"
+          (click)="selectRegion(region)"
+        >
+          {{ region }}
+        </a>
+      </div>
+    </div>
+    <div class="col-8">
+      <div class="tab-content" id="nav-tabContent">
+        <div
+          *ngFor="let region of uniqueRegions; let i = index"
+          class="tab-pane fade"
+          [class.show]="i === 0"
+          [id]="'list-' + region"
+          role="tabpanel"
+          [attr.aria-labelledby]="'list-' + region + '-list'"
+        ></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- List of regions -->

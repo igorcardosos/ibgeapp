@@ -1,0 +1,24 @@
+<div
+  class="card"
+  style="width: 18rem"
+  *ngIf="
+    OnChangeRegionService.selectedRegion !== null &&
+    OnChangeRegionService.selectedRegion !== ''
+  "
+>
+  <ul class="list-group">
+    <li class="list-group-item">
+      <ul class="list-group list-group-item-action">
+        <ng-container *ngFor="let fedUn of FedUnData">
+          <li
+            class="list-group-item list-group-item-action"
+            *ngIf="fedUn.regiao.nome === OnChangeRegionService.selectedRegion"
+            (click)="redirectToPage(fedUn.sigla, fedUn.nome)"
+          >
+            {{ fedUn.nome }}
+          </li>
+        </ng-container>
+      </ul>
+    </li>
+  </ul>
+</div>

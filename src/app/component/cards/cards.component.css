@@ -1,0 +1,28 @@
+/* .regions-card {
+  background-color: #e3f2fd;
+  color: #2196f3;
+}
+
+.states-card {
+  background-color: #dbf5e1;
+  color: #2da84e;
+} */
+
+.regions-card {
+  background-color: #00a3be;
+  color: #fff;
+}
+
+.states-card {
+  background-color: #a6e65a;
+  color: #fff;
+}
+
+.card-text-large {
+  font-size: 3rem;
+}
+
+.cardcfg {
+  display: flex;
+  justify-content: flex-start;
+}
