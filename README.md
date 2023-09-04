@@ -1,5 +1,4 @@
 # IbgeApp
-This project aims to show data on brazilian regions and states.
 
 ## Table of Contents
 
@@ -11,42 +10,48 @@ This project aims to show data on brazilian regions and states.
 - [Contribution](#contribution)
 - [License](#license)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+## Overview
+The purpose of this application is to display data from Brazilian regions and states on an interactive dashboard.
 
 ## Requirements
 
 List the necessary requirements to run the project, such as:
 
-- Node.js (version X.X.X)
-- Angular CLI (version X.X.X)
+- Node.js (version 20.5.1)
+- Angular CLI (version 16.2.1)
 
 ## Installation
 
 1. Clone the repository to your local machine:
- ```shell
-   git clone https://github.com/your-username/your-project.git
+
+```shell
+  git clone https://github.com/igorcardosos/ibgeapp
 ```
 
-## Development server
+2. Navigate to the project directory:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+```shell
+cd ibgeapp
+```
 
-## Code scaffolding
+3. Install dependencies using npm:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```shell
+cd npm install
+```
 
-## Build
+## Usage
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Start the development server:
 
-## Running unit tests
+```shell
+ng serve
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Open your browser and access http://localhost:4200 to view the application.
 
-## Running end-to-end tests
+## Directory Structure
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Contribution
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## License
