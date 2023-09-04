@@ -1,6 +1,31 @@
 # IbgeApp
+This project aims to show data on brazilian regions and states.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Directory Structure](#directory-structure)
+- [Contribution](#contribution)
+- [License](#license)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+
+## Requirements
+
+List the necessary requirements to run the project, such as:
+
+- Node.js (version X.X.X)
+- Angular CLI (version X.X.X)
+
+## Installation
+
+1. Clone the repository to your local machine:
+ ```shell
+   git clone https://github.com/your-username/your-project.git
+```
 
 ## Development server
 
